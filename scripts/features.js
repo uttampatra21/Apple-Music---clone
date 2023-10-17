@@ -31,6 +31,7 @@ const home = document.getElementById("home");
 const sidebar = document.getElementById("sidebar");
 const footer = document.querySelector("footer");
 const icon = document.getElementById("main-icon");
+const songControl = document.getElementById("songs-control");
 const lightIconFade = document.querySelector(".light-icon-fade");
 
 // =================== LIGHT MODE =================//
@@ -40,6 +41,7 @@ lightMode.addEventListener("click", () => {
   sidebar.style.backgroundColor = "White";
   footer.style.backgroundColor = "White";
   mode.style.backgroundColor = "White";
+  songControl.style.backgroundColor = "White";
 
   //* -------------- COLOR --------------- //
   document.querySelector("body").style.color = "#000";

@@ -117,7 +117,16 @@ body {
 }
 
 /** ================ HOME ====================== */
-
+#navbar {
+  display: none;
+  background-color: #2e2e2e;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.menu-icon {
+  background-color: #fa586a;
+}
 #home {
   background-color: #1f1f1f;
   height: 100vh;
@@ -132,23 +141,19 @@ body {
 }
 .play,
 .info {
-  visibility: visible;
   width: 30px;
   height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.image-feature {
-  display: none;
+.items:hover .image-feature {
   background: rgba(0, 0, 0, 0.3);
 }
 .items:hover {
   cursor: pointer;
 }
-.items:hover .image-feature {
-  display: flex;
-}
+
 /** =========== SONG NEXT LIST =============== */
 
 #songs-control {
@@ -169,5 +174,37 @@ body {
 /** ============= FOOTER================  */
 footer {
   background-color: #323232;
-  height: 100px;
+}
+
+.language a,
+.svelte-105opk8 {
+  font-size: 10.5px;
+  color: hsl(0deg 0% 100% / 64%);
+}
+.language a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 483px) {
+  #navbar {
+    display: flex;
+  }
+  #grid-col {
+    display: flex;
+    overflow: auto;
+  }
+  #home-bar {
+    height: 100%;
+  }
+  #sidebar {
+    display: none;
+  }
+
+  #controler {
+    display: none;
+  }
+
+  #songs-control {
+    display: none;
+  }
 }
