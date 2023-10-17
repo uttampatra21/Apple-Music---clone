@@ -1,8 +1,8 @@
 {
   "current_playlist": [],
-  "cardbox": [
+  "slider": [
     {
-      "songsbox": "top charts",
+      "songsbox": "Browse",
       "songscards": [
         {
           "id": 0,
@@ -33,96 +33,6 @@
               "image_source": "https://a10.gaanacdn.com/gn_img/albums/6Zxb27K9wN/xb2qrjNoW9/size_m_1688020211.webp",
               "quality": {
                 "low": "assests/songs/jiyorebahubali.mp3",
-                "medium": "",
-                "high": ""
-              },
-              "release_date": "date"
-            },
-            {
-              "id": 2,
-              "playlist_type": false,
-              "playlist": null,
-              "song_name": "hamsafar",
-              "album_name": "badrinath ki dhulania",
-              "singers": "",
-              "image_source": "assests/images/hamsafar.jpg",
-              "quality": {
-                "low": "assests/songs/hamsafar.mp3",
-                "medium": "",
-                "high": ""
-              },
-              "release_date": "date"
-            },
-            {
-              "id": 3,
-              "playlist_type": false,
-              "playlist": null,
-              "song_name": "ik vaari aa",
-              "album_name": "raabta",
-              "singers": "",
-              "image_source": "assests/images/ik_vaari_aa.jpg",
-              "quality": {
-                "low": "assests/songs/ikvaariaa.mp3",
-                "medium": "",
-                "high": ""
-              },
-              "release_date": "date"
-            },
-            {
-              "id": 4,
-              "playlist_type": false,
-              "playlist": null,
-              "song_name": "ladki kar gayi chull",
-              "album_name": "kapoor and sons",
-              "singers": "",
-              "image_source": "assests/images/hip_hop.jpg",
-              "quality": {
-                "low": "assests/songs/kargyichull.mp3",
-                "medium": "",
-                "high": ""
-              },
-              "release_date": "date"
-            },
-            {
-              "id": 5,
-              "playlist_type": false,
-              "playlist": null,
-              "song_name": "let me love you",
-              "album_name": "encore",
-              "singers": "",
-              "image_source": "assests/images/letmeloveu.jpg",
-              "quality": {
-                "low": "assests/songs/letmeloveu.mp3",
-                "medium": "",
-                "high": ""
-              },
-              "release_date": "date"
-            },
-            {
-              "id": 6,
-              "playlist_type": false,
-              "playlist": null,
-              "song_name": "raabta",
-              "album_name": "raabta",
-              "singers": "",
-              "image_source": "assests/images/rabta.jpg",
-              "quality": {
-                "low": "assests/songs/raabta.mp3",
-                "medium": "",
-                "high": ""
-              },
-              "release_date": "date"
-            },
-            {
-              "id": 7,
-              "playlist_type": false,
-              "playlist": null,
-              "song_name": "shape of you",
-              "album_name": "shape of you",
-              "singers": "",
-              "image_source": "assests/images/shape_of_you.jpg",
-              "quality": {
-                "low": "assests/songs/shapeofyou.mp3",
                 "medium": "",
                 "high": ""
               },
@@ -169,96 +79,6 @@
                 "high": ""
               },
               "release_date": "date"
-            },
-            {
-              "id": 2,
-              "playlist_type": false,
-              "playlist": null,
-              "song_name": "hamsafar",
-              "album_name": "badrinath ki dhulania",
-              "singers": "",
-              "image_source": "assests/images/hamsafar.jpg",
-              "quality": {
-                "low": "assests/songs/hamsafar.mp3",
-                "medium": "",
-                "high": ""
-              },
-              "release_date": "date"
-            },
-            {
-              "id": 3,
-              "playlist_type": false,
-              "playlist": null,
-              "song_name": "ik vaari aa",
-              "album_name": "raabta",
-              "singers": "",
-              "image_source": "assests/images/ik_vaari_aa.jpg",
-              "quality": {
-                "low": "assests/songs/ikvaariaa.mp3",
-                "medium": "",
-                "high": ""
-              },
-              "release_date": "date"
-            },
-            {
-              "id": 4,
-              "playlist_type": false,
-              "playlist": null,
-              "song_name": "ladki kar gayi chull",
-              "album_name": "kapoor and sons",
-              "singers": "",
-              "image_source": "assests/images/hip_hop.jpg",
-              "quality": {
-                "low": "assests/songs/kargyichull.mp3",
-                "medium": "",
-                "high": ""
-              },
-              "release_date": "date"
-            },
-            {
-              "id": 5,
-              "playlist_type": false,
-              "playlist": null,
-              "song_name": "let me love you",
-              "album_name": "encore",
-              "singers": "",
-              "image_source": "assests/images/letmeloveu.jpg",
-              "quality": {
-                "low": "assests/songs/letmeloveu.mp3",
-                "medium": "",
-                "high": ""
-              },
-              "release_date": "date"
-            },
-            {
-              "id": 6,
-              "playlist_type": false,
-              "playlist": null,
-              "song_name": "raabta",
-              "album_name": "raabta",
-              "singers": "",
-              "image_source": "assests/images/rabta.jpg",
-              "quality": {
-                "low": "assests/songs/raabta.mp3",
-                "medium": "",
-                "high": ""
-              },
-              "release_date": "date"
-            },
-            {
-              "id": 7,
-              "playlist_type": false,
-              "playlist": null,
-              "song_name": "shape of you",
-              "album_name": "shape of you",
-              "singers": "",
-              "image_source": "assests/images/shape_of_you.jpg",
-              "quality": {
-                "low": "assests/songs/shapeofyou.mp3",
-                "medium": "",
-                "high": ""
-              },
-              "release_date": "date"
             }
           ],
           "song_name": "bollywood top 50",
@@ -269,9 +89,46 @@
           "release_date": "date"
         }
       ]
+    }
+  ],
+  "cardbox": [
+    {
+      "songsbox": "Top-Tire Playlists",
+      "songscards": [
+        {
+          "id": 0,
+          "playlist_type": false,
+          "playlist": null,
+          "song_name": "Leo dar",
+          "album_name": "Sean Paul, Lawren",
+          "singers": "",
+          "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/ad/b5/f0/adb5f013-db4d-3784-6cda-d59017381b27/f6c0c55b-75d6-4bcc-8abf-daed8e938bc4.png/592x592SC.DN01.webp?l=en-US",
+          "quality": {
+            "low": "/assets/songs/Kalaastar.mp3",
+            "medium": "",
+            "high": ""
+          },
+          "release_date": "date"
+        },
+        {
+          "id": 1,
+          "playlist_type": false,
+          "playlist": null,
+          "song_name": "Baby Nazz",
+          "album_name": "Drake, Mia Khalifa",
+          "singers": "",
+          "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/87/42/2a/87422af4-71b6-8860-9585-7b3a57f78ad7/e9d76023-64e0-41d1-ada4-d9fa1b1b60ba.png/592x592SC.DN01.webp?l=en-US",
+          "quality": {
+            "low": "assests/songs/jiyorebahubali.mp3",
+            "medium": "",
+            "high": ""
+          },
+          "release_date": "date"
+        }
+      ]
     },
     {
-      "songsbox": "latest albums",
+      "songsbox": "New Music",
       "songscards": [
         {
           "id": 0,
