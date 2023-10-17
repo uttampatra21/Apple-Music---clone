@@ -27,8 +27,8 @@ const renderData = (title, songlist) => {
 
   data.innerHTML = `
                 <div class="songs-boxes flex flex-col gap-6">
-                  <h1 class="text-xl font-semibold flex items-center">${title} <i class="bx bx-chevron-right"></i></h1>
-                  <div id="container" class="flex gap-5">
+                  <h1 class="text-xl font-semibold flex items-center px-4">${title} <i class="bx bx-chevron-right"></i></h1>
+                  <div id="container" class="flex gap-5 px-4">
                         ${songlist
                           .map((x) => {
                             return `
@@ -41,7 +41,7 @@ const renderData = (title, songlist) => {
                               src=${x.image_source}
                             />
                             <div
-                              class="image-feature absolute bottom-0 h-full items-end  flex justify-between w-full px-2.5"
+                              class="image-feature absolute bottom-0  flex justify-between w-full px-2.5"
                             >
                               <div class="play rounded-full backdrop-blur">
                                 <i class="bx bxs-right-arrow"></i>
@@ -69,3 +69,5 @@ const playsong = (xInStr) => {
   const songObj = JSON.parse(xInStr);
   console.log(songObj);
 };
+
+

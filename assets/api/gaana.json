@@ -124,6 +124,21 @@
             "high": ""
           },
           "release_date": "date"
+        },
+        {
+          "id": 1,
+          "playlist_type": false,
+          "playlist": null,
+          "song_name": "Baby Nazz",
+          "album_name": "Drake, Mia Khalifa",
+          "singers": "",
+          "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/87/42/2a/87422af4-71b6-8860-9585-7b3a57f78ad7/e9d76023-64e0-41d1-ada4-d9fa1b1b60ba.png/592x592SC.DN01.webp?l=en-US",
+          "quality": {
+            "low": "assests/songs/jiyorebahubali.mp3",
+            "medium": "",
+            "high": ""
+          },
+          "release_date": "date"
         }
       ]
     },
