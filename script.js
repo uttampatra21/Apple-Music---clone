@@ -31,9 +31,8 @@ const renderData = (title, songlist) => {
                   <div id="container" class="flex gap-5">
                         ${songlist
                           .map((x) => {
-                            console.log(x);
                             return `
-                    <div class="items">
+                    <div class="items" onclick="playsong(${JSON.stringify(x)})">
                           <div class="song-image relative w-44">
                             <img
                               class="rounded-md"
@@ -42,7 +41,7 @@ const renderData = (title, songlist) => {
                               src=${x.image_source}
                             />
                             <div
-                              class="image-feature absolute bottom-1 flex justify-between w-full px-2.5"
+                              class="image-feature absolute bottom-0 h-full items-end  flex justify-between w-full px-2.5"
                             >
                               <div class="play rounded-full backdrop-blur">
                                 <i class="bx bxs-right-arrow"></i>
@@ -64,4 +63,9 @@ const renderData = (title, songlist) => {
                 </div>
   `;
   document.getElementById("songs-cetagories").appendChild(data);
+};
+
+const playsong = (xInStr) => {
+  const songObj = JSON.parse(xInStr);
+  console.log(songObj);
 };

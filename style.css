@@ -78,10 +78,13 @@ body {
   z-index: 999;
   background-color: #2c2c2c;
   padding: 5px 3rem;
-  border-bottom: 1px solid hsl(0deg 0% 100% / 15%);
 }
 .controler svg {
   fill: rgb(160, 159, 159) !important;
+}
+.music-player:hover .artist {
+  color: #fa586a;
+  opacity: 1;
 }
 
 .music-player {
@@ -97,6 +100,20 @@ body {
 
 .user-setup {
   background-color: rgb(214 0 23);
+}
+
+.mode {
+  visibility: hidden;
+  top: 3rem;
+  width: 160px;
+  background-color: #1e293b;
+  padding: 6px 0;
+  border-radius: 10px;
+}
+#light:hover,
+#dark:hover,
+#system:hover {
+  background-color: #38465d;
 }
 
 /** ================ HOME ====================== */
@@ -122,10 +139,16 @@ body {
   align-items: center;
   justify-content: center;
 }
+.image-feature {
+  display: none;
+  background: rgba(0, 0, 0, 0.3);
+}
 .items:hover {
   cursor: pointer;
 }
-
+.items:hover .image-feature {
+  display: flex;
+}
 /** =========== SONG NEXT LIST =============== */
 
 #songs-control {
