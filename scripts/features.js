@@ -85,13 +85,13 @@ const menubar = () => {
   hamBar.addEventListener("click", () => {
     if (sidebar.style.top === "-100%") {
       document.getElementById("sidebar").style.top = 0;
-      document.getElementById("cross1").style.rotate = `45deg`;
+      document.getElementById("cross1").style.rotate = `-45deg`;
       document.getElementById("cross1").style.margin = 0;
-      document.getElementById("cross2").style.rotate = `145deg`;
+      document.getElementById("cross2").style.rotate = `45deg`;
     } else {
       document.getElementById("sidebar").style.top = `-100%`;
       document.getElementById("cross1").style.rotate = `0deg`;
-      document.getElementById("cross1").style.margin = `10px 0`;
+      document.getElementById("cross1").style.marginTop = `10px`;
       document.getElementById("cross2").style.rotate = `0deg`;
     }
   });
