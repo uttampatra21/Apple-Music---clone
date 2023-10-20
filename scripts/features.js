@@ -17,6 +17,7 @@ document.getElementById("window").addEventListener("click", () => {
 const darkLightMode = () => {
   const darkMode = document.getElementById("darkMode");
   const mode = document.querySelector(".mode");
+
   darkMode.addEventListener("click", () => {
     if (mode.style.visibility == "hidden") {
       mode.style.visibility = "visible";
@@ -31,6 +32,7 @@ const darkLightMode = () => {
   const sidebar = document.getElementById("sidebar");
   const footer = document.querySelector("footer");
   const icon = document.getElementById("main-icon");
+  const conteroler = document.getElementById("controler");
   const songControl = document.getElementById("songs-control");
   const lightIconFade = document.querySelector(".light-icon-fade");
 
@@ -57,10 +59,16 @@ const darkLightMode = () => {
 
   dakMode.addEventListener("click", () => {
     //* -------------- BACKGROUND COLOR --------------- //
-    home.style.backgroundColor = "";
-    sidebar.style.backgroundColor = "";
-    footer.style.backgroundColor = "";
+    home.style.backgroundColor = "#0f172a";
+    sidebar.style.backgroundColor = "#1e293b";
+    footer.style.backgroundColor = "#1e293b";
     mode.style.backgroundColor = "#1e293b";
+    conteroler.style.backgroundColor = "#1e293b";
+    songControl.style.backgroundColor = "#1e293b";
+    document.getElementById("up-next--bar").style.backgroundColor = "#293548";
+    document.querySelector(".search").style.backgroundColor = "#293548";
+    document.querySelector(".music-player").style.backgroundColor = "#293548";
+
     //* -------------- COLOR --------------- //
     document.querySelector("body").style.color = "#fff";
 
@@ -74,6 +82,8 @@ const darkLightMode = () => {
   <path fill-rule="evenodd" clip-rule="evenodd" d="M17 3a1 1 0 0 1 1 1 2 2 0 0 0 2 2 1 1 0 1 1 0 2 2 2 0 0 0-2 2 1 1 0 1 1-2 0 2 2 0 0 0-2-2 1 1 0 1 1 0-2 2 2 0 0 0 2-2 1 1 0 0 1 1-1Z" class="fill-sky-500"></path>
 </svg>`;
   });
+
+  // =================== DARK MODE =================//
 };
 darkLightMode();
 

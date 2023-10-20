@@ -9,7 +9,7 @@
 html,
 body {
   color: #fff;
-  background-color: #1f1f1f;
+  background-color: #0f172a;
   transition: 0.5s;
   scroll-behavior: smooth;
 }
@@ -209,10 +209,9 @@ footer {
   }
   .menu-icon {
     position: absolute;
-    transition: .5s;
-    
+    transition: 0.5s;
   }
-  #cross1{
+  #cross1 {
     margin: 10px 0;
   }
   #controler {

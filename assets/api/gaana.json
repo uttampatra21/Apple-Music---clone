@@ -87,6 +87,48 @@
           "image_source": "assests/images/top_50.jpg",
           "quality": { "low": "", "medium": "", "high": "" },
           "release_date": "date"
+        },
+        {
+          "id": 1,
+          "playlist_type": true,
+          "playlist": [
+            {
+              "id": 0,
+              "playlist_type": false,
+              "playlist": null,
+              "song_name": "paro",
+              "album_name": "pyaar ka panchnaman 2",
+              "singers": "",
+              "image_source": "assests/images/ppk2.jpg",
+              "quality": {
+                "low": "assests/songs/paro.mp3",
+                "medium": "",
+                "high": ""
+              },
+              "release_date": "date"
+            },
+            {
+              "id": 1,
+              "playlist_type": false,
+              "playlist": null,
+              "song_name": "jiyo re bahubali",
+              "album_name": "bahubali 2",
+              "singers": "",
+              "image_source": "https://a10.gaanacdn.com/gn_img/albums/6Zxb27K9wN/xb2qrjNoW9/size_m_1688020211.webp",
+              "quality": {
+                "low": "assests/songs/jiyorebahubali.mp3",
+                "medium": "",
+                "high": ""
+              },
+              "release_date": "date"
+            }
+          ],
+          "song_name": "bollywood top 50",
+          "album_name": "",
+          "singers": "",
+          "image_source": "assests/images/top_50.jpg",
+          "quality": { "low": "", "medium": "", "high": "" },
+          "release_date": "date"
         }
       ]
     }

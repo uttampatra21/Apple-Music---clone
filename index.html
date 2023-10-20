@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Apple Music - Web Player</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
     />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./assets/css/slider.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -382,7 +382,10 @@
                   id="small-navbar"
                   class="flex items-center justify-between w-full"
                 >
-                  <div id="hamBar" class="menu flex flex-col gap-2">
+                  <div
+                    id="hamBar"
+                    class="menu flex flex-col gap-2 py-5 px-5 bg-red-500 items-center justify-center"
+                  >
                     <span class="menu-icon w-6 h-0.5" id="cross1"></span>
                     <span class="menu-icon w-6 h-0.5" id="cross2"></span>
                   </div>
@@ -410,7 +413,7 @@
                 </div>
               </nav>
               <!-- === SLIDER === -->
-              <div id="slider"></div>
+              <!-- <div id="slider"></div> -->
               <!-- !API INTEGRATION -->
               <div id="view-page">
                 <div id="songs-cetagories" class="px-6"></div>

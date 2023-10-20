@@ -2,8 +2,9 @@ window.addEventListener("load", () => {
   callapi();
 });
 
-//* -----------API
+//* ---------------------------- API
 const api = "/assets/api/songs.json";
+
 const callapi = async () => {
   const response = await fetch("/assets/api/gaana.json");
   const data = await response.json();
@@ -16,7 +17,9 @@ const callapi = async () => {
   }
 };
 
-//* ---------- SECTION
+//* ----------------------------- SLIDER
+
+//* --------------------------- SECTION
 const renderSection = (title, songlist) => {
   renderData(title, songlist);
 };
@@ -32,7 +35,7 @@ const renderData = (title, songlist) => {
                         ${songlist
                           .map((x) => {
                             return `
-                    <div class="items" onclick="playsong(${JSON.stringify(x)})">
+                    <div class="items" >
                           <div class="song-image relative w-44">
                             <img
                               class="rounded-md"
@@ -44,7 +47,7 @@ const renderData = (title, songlist) => {
                               class="image-feature absolute bottom-0  flex justify-between w-full px-2.5"
                             >
                               <div class="play rounded-full backdrop-blur">
-                                <i class="bx bxs-right-arrow"></i>
+                                <i class="bx bxs-right-arrow" id="masterPlay"></i>
                               </div>
                               <div class="info rounded-full backdrop-blur">
                                 <idiv class="bx bx-dots-horizontal-rounded"></idiv>
@@ -65,9 +68,14 @@ const renderData = (title, songlist) => {
   document.getElementById("songs-cetagories").appendChild(data);
 };
 
-const playsong = (xInStr) => {
-  const songObj = JSON.parse(xInStr);
-  console.log(songObj);
-};
+const music = new Audio("/assets/songs/Kalaastar.mp3");
 
+const masterPlay = document.querySelector(".play");
 
+masterPlay.addEventListener("click", () => {
+  if (music.paused || music.currentTime <= 0) {
+    music.play();
+  } else {
+    music.pause();
+  }
+});
